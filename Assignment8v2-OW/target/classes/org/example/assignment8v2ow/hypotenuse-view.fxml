@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<VBox alignment="CENTER" fillWidth="false" prefHeight="1472.0" prefWidth="1477.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.assignment8v2ow.hypotenuseController">
+   <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="552.0" prefWidth="403.0">
+      <children>
+         <Polygon fill="DODGERBLUE" layoutX="151.0" layoutY="123.0" points="-34.0, 142.0, 74.0, 142.0, 67.0, 11.0" stroke="BLACK" strokeType="INSIDE" />
+         <Label layoutX="88.0" layoutY="178.0" text="a" />
+         <Label layoutX="163.0" layoutY="276.0" text="b" />
+         <Label layoutX="258.0" layoutY="171.0" prefHeight="32.0" prefWidth="14.0" text="c" />
+         <TextField fx:id="aInput" layoutX="66.0" layoutY="199.0" prefHeight="25.0" prefWidth="51.0" />
+         <TextField fx:id="bInput" layoutX="146.0" layoutY="303.0" prefHeight="25.0" prefWidth="51.0" />
+         <TextField fx:id="cOutput" layoutX="246.0" layoutY="199.0" prefHeight="25.0" prefWidth="37.0" />
+         <Button fx:id="clearButton" layoutX="149.0" layoutY="343.0" mnemonicParsing="false" text="Clear" />
+         <Button fx:id="calculateButton" layoutX="145.0" layoutY="387.0" mnemonicParsing="false" text="Calculate" />
+      </children>
+      <VBox.margin>
+         <Insets bottom="200.0" left="200.0" right="200.0" top="200.0" />
+      </VBox.margin>
+   </Pane>
+</VBox>
